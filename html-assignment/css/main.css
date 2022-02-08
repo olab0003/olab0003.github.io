@@ -1,0 +1,79 @@
+body {
+    background-color: #2f2f2f;
+    font-family:arial;
+    font-size:18px;
+}
+h1, h2, h5, h3, em, q, p, div, li{
+    color: #f9f9ed;
+}
+
+/* visited link */
+a:visited {
+    color: #f9f9ed;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0cca4a;
+}
+/* selected link */
+a:active {
+    color: #0cca4a;
+}
+/* link stuff */
+a:link {
+    text-decoration: none;
+}
+/* link stuff */
+a:active {
+    text-decoration: underline;
+}
+/* list stuff */
+section ul li {
+    list-style-type:none;
+}
+a:link {
+    background-color: #7272ab;
+}
+form header footer :nth-child(2){
+    background-color: #7272ab;
+}
+/*odd and even*/
+section li:nth-child(even) {
+    background: #8e6c88;
+}
+section li:nth-child(odd) {
+    background: #7272ab;
+}
+
+/*box-shadow*/
+p{
+    width: 800px;
+    height: 100px;
+    padding: 15px;
+    background-color: #7272ab;
+    box-shadow: 10px 10px #0cca4a;
+}
+
+/*yo2*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+div li {
+    float: left;
+}
+  
+div li a {
+    display: block;
+    padding: 8px;
+    background-color: #0cca4a;
+}
+
+/* glowing Shadow Effects*/
+h1 {
+    text-shadow: 2px 2px 5px #8e6c88;
+}
