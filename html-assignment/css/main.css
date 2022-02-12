@@ -3,7 +3,7 @@ body {
     font-family:arial;
     font-size:18px;
 }
-h1, h2, h5, h3, em, q, p, div, li{
+h1, h2, h5, h3, em, q, p, div, li, strong{
     color: #f9f9ed;
 }
 
@@ -47,12 +47,12 @@ section li:nth-child(odd) {
 }
 
 /*box-shadow*/
-p{
+p.word {
     width: 800px;
     height: 100px;
     padding: 15px;
     background-color: #7272ab;
-    box-shadow: 10px 10px #0cca4a;
+    box-shadow: 10px 10px #8e6c88;
 }
 
 /*yo2*/
@@ -77,3 +77,68 @@ div li a {
 h1 {
     text-shadow: 2px 2px 5px #8e6c88;
 }
+/* img siz*/
+img {
+    width: 50%;
+    height: auto;
+}
+
+em.a {
+    font-size: 30px;
+}
+
+strong.animls {
+    font-size: 35px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #0cca4a;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #0cca4a;
+    color: black;
+}
+  
+  /* Style the content */
+  .content {
+    background-color: #7272ab;
+    padding: 10px;
+    height: 200px; 
+}
+  
+  /* Style the footer */
+  .footer {
+    background-color: #8e6c88;
+    padding: 10px;
+}
+
+/*coin*/
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#flip-button{background-color: #0cca4a;
+color: #f2f2f2;
+}
+
