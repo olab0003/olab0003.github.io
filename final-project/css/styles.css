@@ -33,10 +33,6 @@ ul {
     padding: 14px;
 
 }
-
-li {
-   /* text-align: center;*/
-}
   
 .home {
     background-color:orange;
@@ -67,12 +63,17 @@ border:#111 solid 3px;
 }
 
 .box{
-    /*text-align: center;*/
-    display: inline;
+    text-align: center;
+    /*display: center;*/
+    padding-left: 50px;
+}
+.box2{
+    display: none;
 }
 /*?*/
 i{
     color: coral;
+    
 }
 
 /*welcome*/
@@ -179,7 +180,27 @@ footer{
     }
     /*img*/
     .logo{
-        display:inline-block;
+        float: left;
         vertical-align: middle;
+        display:inline-block ;
+    }
+    /*the serhe*/
+    .box{
+        /*float:;*/
+        
+        display: none;
+    }
+    .box2{
+        display: inline-block;
+        float:right;
+        margin-top: 55px;
+    }
+    
+    ul .box2{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "logo li li li li box2"
+        ;
     }
 }
