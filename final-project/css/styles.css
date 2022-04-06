@@ -81,7 +81,7 @@ i{
     background:rgba(0, 0, 0, 0.7) url(../imges/main-banner.jpg);
     background-size:cover ;
     background-blend-mode: darken;
-    max-width: 100%;
+    max-width:100%;
     height: auto;
     border: 3px solid #222;
     padding: 25px;
@@ -178,7 +178,8 @@ footer{
         /*border: 1px solid #ccc;*/
     }
     li{
-        margin: 50px;
+        /*margin: 50px;*/
+        width: 150px;
     }
     /*img*/
     .logo{
@@ -194,16 +195,28 @@ footer{
     }
     .box2{
         display: inline-block;
-        float:right;
-        margin-top: 55px;
+        /*float:right;
+        margin-top: 55px;*/
     }
     
-    .box2{
-        /*display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .nav{
+        display: grid;
+        /*grid-template-columns: repeat(1, 1fr);*/
+        text-align: center;
+        grid-template-rows: 1fr;
         grid-template-areas: 
-        "logo li li li li box2"
-        ;*/
+        "logo li search2"
+        ;
+    }
+
+    .nav {
+        grid-area: il;
+    }
+    .box2{
+        grid-area: search2;
+    }
+    img{
+        grid-area: logo;
     }
 
     .our{
@@ -223,8 +236,8 @@ footer{
     .marketing {
         grid-area: marketing;
     }
-    .vido{
-        grid-area: vido;
+    .video{
+        grid-area: video;
     }
     .web{
         grid-area: web;
