@@ -42,7 +42,6 @@ li a {
   text-align: center;
   display: block;
   color: white;
-  /*text-align: center;*/
   padding: 14px 16px;
   text-decoration: none;
   
@@ -54,9 +53,6 @@ li a:hover {
 
 /*search / text for inpt*/
 input {
-/*margin:auto;
-margin-bottom: 1rem;
-position: relative;*/
 width: 300px;
 height: 42px;
 border:#222 solid 3px;
@@ -64,20 +60,20 @@ border:#222 solid 3px;
 
 .box{
     text-align: center;
-    /*display: center;*/
     padding-left: 50px;
 }
 .box2{
     display: none;
 }
-/*?*/
+/*? i icon?*/
 i{
     color:#c78c06;
     
 }
 
-/*welcome*/
+/* the welcome*/
 .inp{
+    max-width: 1200px;
     background:rgba(0, 0, 0, 0.7) url(../imges/main-banner.jpg);
     background-size:cover ;
     background-blend-mode: darken;
@@ -110,11 +106,7 @@ i{
     border: 1rem #111;
     color: white;
 }
-/*send button it gone*/
-.move{
-    display: block;
-    margin: auto;
-}
+/**/
 /*box contact us*/
 .us {
     background-color: #ffe6ac;
@@ -135,7 +127,7 @@ i{
 /*box the tag*/
 .contactus{
     background-color: #ffe6ac;
-    color: #111;
+    color: #222;
 }
 
 /*table box*/
@@ -160,7 +152,7 @@ tr:nth-child(3) td {
 footer{
     background-color: #ffe6ac;
     padding-bottom:3rem;
-    color:#111;
+    color:#222;
 }
 /*pc*/
 @media screen and (min-width:760px) {
@@ -173,11 +165,12 @@ footer{
         padding: 14px;
 
     }
-    li {
-        display: inline-block;
-        /*border: 1px solid #ccc;*/
+    /*contaner?*/
+    .inp{
+        max-width: 1200px;
     }
     li{
+        display: inline-block;
         /*margin: 50px;*/
         width: 150px;
     }
@@ -228,7 +221,7 @@ footer{
         "video video web web print print"
         ;
     }
-    /*i need to not for get it again*/
+    /*i need to not forget it again!*/
     .digital {
         grid-area: digital;
     }
@@ -279,4 +272,5 @@ footer{
     }
     .contactus{grid-area: contactus;
     }
+    /*forget what you know?*/
 }
